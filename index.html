@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,42 +12,45 @@
 <body>
     <header>
         <div class="pixname">
-            <img src="images/profil.jpeg" alt="Tim Berners-Lee">
+            <img src="images/profil.jpeg" alt="Tim Berners-Lee" id="rond">
             <h2>Tim Berners-Lee</h2>
             <h3>Inventor of HTML</h3>
-            <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when 
+            <p id="bio">Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when 
             he came up with the concet; at the time he had no idea that it would be implemented on such an <strong>enormous scale.</strong></p>
             <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee"> <p class="button">See For Yourself</p></a>
         </div>
     </header>
     <section class="social">
         <ul>
-            <li><a href="https://www.facebook.com/tim.berners.lee/"> <i class="fa fa-facebook" aria-hidden="true">_</i>
+            <li><a href="https://www.facebook.com/tim.berners.lee/"> <i class="fa fa-facebook" aria-hidden="true"></i>
             <br />FaceBook</a></li>
-            <li><a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/"> <i class="fa fa-linkedin" aria-hidden="true">_</i>
+            <li><a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/"> <i class="fa fa-linkedin" aria-hidden="true"></i>
             <br />Linkedin</a></li>
-            <li><a href="https://twitter.com/timberners_lee"> <i class="fa fa-twitter" aria-hidden="true">_</i>
+            <li><a href="https://twitter.com/timberners_lee"> <i class="fa fa-twitter" aria-hidden="true"></i>
             <br />Twitter</a></li>
         </ul>
     </section>
     <section class="content">
-        <h3>His Favorite Movies</h3>
+        <h3><span id="his">His</span> Favorite Movies </h3>
         <div class="film">
-            <h4><img src="images/space.jpeg" alt="Space Odyssey"  align="middle"  >
-            2001 - Space Odyssey</h4>
+            <img src="images/space.jpeg" alt="Space Odyssey"  align="middle"  >
+            <div class="filmtxt"><h4>2001 - Space Odyssey</h4>
             <p>Humanity finds a mysterious, obviously, artificial, object buried beneath the Lunar 
             surface and, with the intelligent computer H.A.L 9000, sets off on a quest.</p>
+            </div>
         </div>
         <div class="film">
-            <h4><img src="images/hulot.jpeg" alt="Monsieur Hulot" align="middle">
-            Monsieur Hulot </h4>
+            <img src="images/hulot.jpeg" alt="Monsieur Hulot" align="middle">
+            <div class="filmtxt"><h4>Monsieur Hulot </h4>
             <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+            </div>
         </div>
         <div class="film">
-            <h4><img src="images/alien.jpeg" alt="Alien" align="middle" >
-            Alien </h4>
+            <img src="images/alien.jpeg" alt="Alien" align="middle" >
+            <div class="filmtxt"><h4>Alien </h4>
             <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads 
             home only to realize that a deadly bioform has joined them.</p>
+            </div>
         </div>
     </section>
     

@@ -1,0 +1,146 @@
+body {
+    margin-left: 30%;
+    background-color: rgb(180, 180, 180);
+    color: rgb(92, 92, 92);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+
+    
+}
+
+ul li a {
+    display: block;
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+.pixname {
+    width: 75vh;
+    height: 62vh;
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 80px;
+    padding: 20px;
+    
+}
+
+#bio {
+    text-align: justify;
+    padding: 20px;
+}
+
+#rond {
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:180px;
+    height:180px;
+    border: 6px solid rgb(148, 148, 148);
+}
+
+.button {
+        -webkit-border-radius: 9;
+        -moz-border-radius: 9;
+        border-radius: 9px;
+        color: #ffffff;
+        font-size: 20px;
+        background: #de3c3c;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+}
+
+.social {
+    background-color: rgb(255,255,255);
+    width: 75vh;
+    height: 20vh;
+    padding-right: 40px;
+    margin : 20px 0px 20px 0px;
+    text-align: center;
+    color: gray;
+    font-size: 28px;
+    
+}
+
+.social a {
+    text-decoration: none;
+    color: gray;
+}
+
+i {
+    color: gray;
+
+}
+
+.content {
+    width: 71vh;
+    height: 142vh;
+    background-color: rgb(255,255,255);
+    margin : 20px 0px 20px 0px;
+    padding: 40px;
+    position: absolute;
+}
+
+.content h3,h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.film {
+    width: 71vh;
+    height: 40vh;
+    padding-top: 50px;
+}
+.film h4 {
+    text-align: center;
+}
+
+.filmtxt {
+    padding-top: 40px;
+    margin-left: 270px;
+}
+
+
+.content img {
+    vertical-align: middle;
+    float: left;
+}
+
+.pixname, .social, .content {
+    border: 2px solid;
+    border-color: rgb(148, 148, 148);
+    border-radius: 10px;
+}
+
+#his {
+    background-color: rgb(148, 148, 148)
+};
